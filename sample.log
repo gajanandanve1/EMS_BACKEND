@@ -1,0 +1,36 @@
+2023-03-20 15:24:12.708  INFO 38444 --- [restartedMain] com.yash.ems.EMSApplication              : Starting EMSApplication using Java 17.0.4 on YP1016566LT with PID 38444 (E:\Project\emsd\EMS_IternalProject\target\classes started by gajanan.danve in E:\Project\emsd\EMS_IternalProject)
+2023-03-20 15:24:12.708  INFO 38444 --- [restartedMain] com.yash.ems.EMSApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 15:24:12.935  INFO 38444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-20 15:24:12.969  INFO 38444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2023-03-20 15:24:13.034  INFO 38444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7079 (http)
+2023-03-20 15:24:13.034  INFO 38444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-20 15:24:13.034  INFO 38444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-20 15:24:13.056  INFO 38444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-20 15:24:13.056  INFO 38444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 347 ms
+2023-03-20 15:24:13.084  INFO 38444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 15:24:13.088  INFO 38444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-03-20 15:24:13.100  INFO 38444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-03-20 15:24:13.100  INFO 38444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-20 15:24:13.150  INFO 38444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:24:13.151  INFO 38444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 15:24:13.299  WARN 38444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 15:24:13.321  INFO 38444 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-20 15:24:13.361  INFO 38444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-20 15:24:13.406  INFO 38444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7079 (http) with context path ''
+2023-03-20 15:24:13.406  INFO 38444 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-20 15:24:13.407  INFO 38444 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-20 15:24:13.411  INFO 38444 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-20 15:24:13.437  INFO 38444 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2023-03-20 15:24:13.439  INFO 38444 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveEmpoyeeUsingPOST_1
+2023-03-20 15:24:13.444  INFO 38444 --- [restartedMain] com.yash.ems.EMSApplication              : Started EMSApplication in 0.774 seconds (JVM running for 1282.194)
+2023-03-20 15:24:13.445  INFO 38444 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-20 15:24:29.348  INFO 38444 --- [http-nio-7079-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 15:24:29.348  INFO 38444 --- [http-nio-7079-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-20 15:24:29.350  INFO 38444 --- [http-nio-7079-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-20 15:24:29.368  INFO 38444 --- [http-nio-7079-exec-1] c.y.ems.controller.EmployeeController    : Create Employee Data...
+2023-03-20 15:36:17.778  INFO 38444 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-20 15:36:17.794  INFO 38444 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-20 15:36:17.796  INFO 38444 --- [Thread-31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-20 15:36:17.804  INFO 38444 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 15:36:17.804  INFO 38444 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-03-20 15:36:17.848  INFO 38444 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
